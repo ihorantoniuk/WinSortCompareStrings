@@ -44,7 +44,7 @@ namespace WinSortCompareStrings
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(textBox2.Text + "Hi version 3!");
+            Form2 form2 = new Form2(textBox2.Text + "This is main origin!");
             form2.ShowDialog(this);
             textBox2.Text = form2.strMsg;
         }
