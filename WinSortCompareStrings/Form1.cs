@@ -47,9 +47,10 @@ namespace WinSortCompareStrings
             string msg = textBox2.Text + "This is Diana's update 12/01/23 of a new feature";
             Form2 form2 = new Form2(msg);
             form2.ShowDialog(this);
-	    int test = 100;
+	        
+            int test = 80;//bug fixed
             textBox2.Text = form2.strMsg + test.ToString();
-	    /*bug fixed*/
+	    
         
         }
     }
