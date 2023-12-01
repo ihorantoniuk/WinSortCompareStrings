@@ -49,6 +49,7 @@ namespace WinSortCompareStrings
             form2.ShowDialog(this);
 	    int test = 100;
             textBox2.Text = form2.strMsg + test.toString();
+	    /*new message added*/
         }
     }
 }
