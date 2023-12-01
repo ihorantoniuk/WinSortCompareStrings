@@ -48,8 +48,9 @@ namespace WinSortCompareStrings
             Form2 form2 = new Form2(msg);
             form2.ShowDialog(this);
 	    int test = 100;
-            textBox2.Text = form2.strMsg + test.toString();
-	    /*new message added*/
+            textBox2.Text = form2.strMsg + test.ToString();
+	    /*bug fixed*/
+        
         }
     }
 }
