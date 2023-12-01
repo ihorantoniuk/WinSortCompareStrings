@@ -46,7 +46,8 @@ namespace WinSortCompareStrings
         {
             Form2 form2 = new Form2(textBox2.Text + "This is Diana's update 12/01/23 of a new feature!");
             form2.ShowDialog(this);
-            textBox2.Text = form2.strMsg;
+	    int test = 100;
+            textBox2.Text = form2.strMsg + test.toString();
         }
     }
 }
